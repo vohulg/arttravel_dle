@@ -1,0 +1,1 @@
+<a onclick="ShowProfile('admin', 'http://dle100/user/admin/', gallery_admin_editusers); return false;" href="http://dle100/user/admin/">admin (8)</a>
