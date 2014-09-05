@@ -8,7 +8,8 @@ html,body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,form,p,blockquote,fieldset
 }
 
 body {
-    background: #a8d2e5 url("../images/pagebg.png") repeat-x 50% 64px;
+    //background: #a8d2e5 url("../images/pagebg.png") repeat-x 50% 64px;
+    background: #a8d2e5 url("../images/pagebg.png") repeat-x;
     color: #1f282c;
     word-wrap: break-word;
 }

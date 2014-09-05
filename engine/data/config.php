@@ -1,312 +1,312 @@
-<?PHP
+<?PHP 
 
 //System Configurations
 
 $config = array (
 
-'version_id' => "10.0",
+'home_title' => 'Arttravel - время для отдыха должно быть всегда',
 
-'home_title' => "DataLife Engine",
+'http_home_url' => 'http://dle100/',
 
-'http_home_url' => "http://dle100/",
+'charset' => 'windows-1251',
 
-'charset' => "windows-1251",
+'description' => 'авиатурагенство',
 
-'admin_mail' => "admin@dle10",
+'keywords' => 'DataLife, Engine, CMS, PHP движок',
 
-'description' => "Демонстрационная страница движка DataLife Engine",
+'short_title' => 'Демонстрационный сайт',
 
-'keywords' => "DataLife, Engine, CMS, PHP движок",
+'start_site' => '1',
 
-'date_adjust' => "0",
+'date_adjust' => '0',
 
-'site_offline' => "no",
+'allow_alt_url' => 'yes',
 
-'allow_alt_url' => "yes",
+'seo_type' => '1',
 
-'langs' => "Russian",
+'seo_control' => '0',
 
-'skin' => "Default",
+'langs' => 'Russian',
 
-'allow_gzip' => "no",
+'skin' => 'ArtTemplate',
 
-'allow_admin_wysiwyg' => "0",
+'allow_admin_wysiwyg' => '0',
 
-'allow_static_wysiwyg' => "0",
+'allow_static_wysiwyg' => '0',
 
-'news_number' => "10",
+'allow_complaint_mail' => '0',
 
-'smilies' => "wink,winked,smile,am,belay,feel,fellow,laughing,lol,love,no,recourse,request,sad,tongue,wassat,crying,what,bully,angry",
+'site_offline' => 'no',
 
-'timestamp_active' => "j-m-Y, H:i",
+'offline_reason' => 'Сайт находится на текущей реконструкции, после завершения всех работ сайт будет открыт.<br /><br />Приносим вам свои извинения за доставленные неудобства.',
 
-'news_sort' => "date",
+'admin_path' => 'admin.php',
 
-'news_msort' => "DESC",
+'extra_login' => '0',
 
-'hide_full_link' => "no",
+'login_log' => '5',
 
-'allow_site_wysiwyg' => "0",
+'ip_control' => '1',
 
-'allow_comments' => "yes",
+'log_hash' => '0',
 
-'comm_nummers' => "30",
+'sec_addnews' => '2',
 
-'comm_msort' => "ASC",
+'spam_api_key' => '',
 
-'flood_time' => "30",
+'allow_recaptcha' => '0',
 
-'auto_wrap' => "80",
+'recaptcha_public_key' => '6LfoOroSAAAAAEg7PViyas0nRqCN9nIztKxWcDp_',
 
-'timestamp_comment' => "j F Y H:i",
+'recaptcha_private_key' => '6LfoOroSAAAAAMgMr_BTRMZy20PFir0iGT2OQYZJ',
 
-'allow_comments_wysiwyg' => "0",
+'recaptcha_theme' => 'clean',
 
-'allow_registration' => "yes",
+'news_number' => '10',
 
-'allow_cache' => "no",
+'search_number' => '10',
 
-'allow_votes' => "yes",
+'related_number' => '5',
 
-'allow_topnews' => "yes",
+'top_number' => '10',
 
-'allow_read_count' => "1",
+'tags_number' => '40',
 
-'allow_calendar' => "yes",
+'max_moderation' => '0',
 
-'allow_archives' => "yes",
+'news_restricted' => '0',
 
-'files_allow' => "yes",
+'smilies' => 'wink,winked,smile,am,belay,feel,fellow,laughing,lol,love,no,recourse,request,sad,tongue,wassat,crying,what,bully,angry',
 
-'files_count' => "yes",
+'timestamp_active' => 'j-m-Y, H:i',
 
-'reg_group' => "4",
+'news_navigation' => '1',
 
-'registration_type' => "0",
+'news_sort' => 'date',
 
-'allow_sec_code' => "yes",
+'news_msort' => 'DESC',
 
-'allow_skin_change' => "yes",
+'catalog_sort' => 'date',
 
-'max_users' => "0",
+'catalog_msort' => 'DESC',
 
-'max_users_day' => "0",
+'image_align' => 'left',
 
-'max_up_size' => "200",
+'news_future' => '0',
 
-'max_image_days' => "2",
+'create_catalog' => '0',
 
-'allow_watermark' => "yes",
+'parse_links' => '0',
 
-'max_watermark' => "150",
+'mail_news' => '1',
 
-'max_image' => "450",
+'show_sub_cats' => '1',
 
-'jpeg_quality' => "85",
+'short_rating' => '1',
 
-'files_antileech' => "1",
+'hide_full_link' => 'no',
 
-'allow_banner' => "1",
+'allow_search_print' => '1',
 
-'log_hash' => "0",
+'allow_add_tags' => '1',
 
-'show_sub_cats' => "1",
+'allow_share' => '1',
 
-'tag_img_width' => "0",
+'allow_site_wysiwyg' => '0',
 
-'mail_metod' => "php",
+'allow_quick_wysiwyg' => '0',
 
-'smtp_host' => "localhost",
+'allow_comments' => 'yes',
 
-'smtp_port' => "25",
+'comments_restricted' => '0',
 
-'smtp_user' => "",
+'allow_subscribe' => '1',
 
-'smtp_pass' => "",
+'allow_combine' => '1',
 
-'mail_bcc' => "0",
+'max_comments_days' => '0',
 
-'speedbar' => "1",
+'comments_minlen' => '10',
 
-'extra_login' => "0",
+'comments_maxlen' => '3000',
 
-'image_align' => "left",
+'comm_nummers' => '30',
 
-'ip_control' => "1",
+'comm_msort' => 'ASC',
 
-'cache_count' => "0",
+'flood_time' => '30',
 
-'related_news' => "1",
+'auto_wrap' => '80',
 
-'no_date' => "1",
+'timestamp_comment' => 'j F Y H:i',
 
-'mail_news' => "1",
+'allow_search_link' => '1',
 
-'mail_comments' => "1",
+'mail_comments' => '1',
 
-'admin_path' => "admin.php",
+'allow_comments_wysiwyg' => '0',
 
-'rss_informer' => "1",
+'allow_cache' => 'no',
 
-'allow_cmod' => "0",
+'clear_cache' => '0',
 
-'max_up_side' => "0",
+'cache_type' => '0',
 
-'files_force' => "1",
+'memcache_server' => 'localhost:11211',
 
-'short_rating' => "1",
+'allow_comments_cache' => '1',
 
-'full_search' => "0",
+'allow_gzip' => 'no',
 
-'allow_multi_category' => "1",
+'js_min' => '0',
 
-'short_title' => "Демонстрационный сайт",
+'full_search' => '0',
 
-'allow_rss' => "1",
+'fast_search' => '1',
 
-'rss_mtype' => "0",
+'allow_registration' => 'yes',
 
-'rss_number' => "10",
+'allow_multi_category' => '1',
 
-'rss_format' => "1",
+'related_news' => '1',
 
-'comments_maxlen' => "3000",
+'no_date' => '1',
 
-'offline_reason' => "Сайт находится на текущей реконструкции, после завершения всех работ сайт будет открыт.<br /><br />Приносим вам свои извинения за доставленные неудобства.",
+'allow_fixed' => '1',
 
-'catalog_sort' => "date",
+'speedbar' => '1',
 
-'catalog_msort' => "DESC",
+'allow_banner' => '1',
 
-'related_number' => "5",
+'allow_cmod' => '0',
 
-'seo_type' => "2",
+'allow_votes' => 'yes',
 
-'max_moderation' => "0",
+'allow_topnews' => 'yes',
 
-'allow_quick_wysiwyg' => "0",
+'allow_read_count' => '1',
 
-'sec_addnews' => "2",
+'cache_count' => '0',
 
-'mail_pm' => "1",
+'allow_calendar' => 'yes',
 
-'allow_change_sort' => "1",
+'allow_archives' => 'yes',
 
-'registration_rules' => "1",
+'rss_informer' => '1',
 
-'allow_tags' => "1",
+'allow_tags' => '1',
 
-'allow_add_tags' => "1",
+'allow_change_sort' => '1',
 
-'allow_fixed' => "1",
+'comments_ajax' => '0',
 
-'max_file_count' => "0",
+'online_status' => '1',
 
-'allow_smartphone' => "0",
+'files_allow' => 'yes',
 
-'allow_smart_images' => "0",
+'max_file_count' => '0',
 
-'allow_smart_video' => "0",
+'files_force' => '1',
 
-'allow_search_print' => "1",
+'files_antileech' => '1',
 
-'allow_search_link' => "1",
+'files_count' => 'yes',
 
-'allow_smart_format' => "1",
+'admin_mail' => 'admin@dle10',
 
-'thumb_dimming' => "0",
+'mail_title' => '',
 
-'thumb_gallery' => "1",
+'mail_metod' => 'php',
 
-'max_comments_days' => "0",
+'mail_additional' => '',
 
-'allow_combine' => "1",
+'smtp_host' => 'localhost',
 
-'allow_subscribe' => "1",
+'smtp_port' => '25',
 
-'parse_links' => "0",
+'smtp_user' => '',
 
-'t_seite' => "0",
+'smtp_pass' => '',
 
-'comments_minlen' => "10",
+'smtp_mail' => '',
 
-'js_min' => "0",
+'use_admin_mail' => '0',
 
-'outlinetype' => "0",
+'smtp_helo' => 'HELO',
 
-'fast_search' => "1",
+'mail_bcc' => '0',
 
-'login_log' => "5",
+'auth_metod' => '0',
 
-'allow_recaptcha' => "0",
+'reg_group' => '4',
 
-'recaptcha_public_key' => "6LfoOroSAAAAAEg7PViyas0nRqCN9nIztKxWcDp_",
+'registration_type' => '0',
 
-'recaptcha_private_key' => "6LfoOroSAAAAAMgMr_BTRMZy20PFir0iGT2OQYZJ",
+'reg_multi_ip' => '1',
 
-'recaptcha_theme' => "clean",
+'auth_domain' => '1',
 
-'search_number' => "10",
+'registration_rules' => '1',
 
-'news_navigation' => "1",
+'allow_sec_code' => 'yes',
 
-'mail_additional' => "",
+'reg_question' => '0',
 
-'smtp_mail' => "",
+'allow_skin_change' => 'yes',
 
-'seo_control' => "0",
+'mail_pm' => '1',
 
-'news_restricted' => "0",
+'max_users' => '0',
 
-'comments_restricted' => "0",
+'max_users_day' => '0',
 
-'auth_metod' => "0",
+'max_up_side' => '0',
 
-'comments_ajax' => "0",
+'o_seite' => '0',
 
-'create_catalog' => "0",
+'max_up_size' => '200',
 
-'mobile_news' => "10",
+'max_image_days' => '2',
 
-'reg_question' => "0",
+'allow_watermark' => 'yes',
 
-'smtp_helo' => "HELO",
+'max_watermark' => '150',
 
-'news_future' => "0",
+'max_image' => '450',
 
-'cache_type' => "0",
+'t_seite' => '0',
 
-'memcache_server' => "localhost:11211",
+'jpeg_quality' => '85',
 
-'allow_comments_cache' => "1",
+'avatar_size' => '100',
 
-'reg_multi_ip' => "1",
+'tag_img_width' => '0',
 
-'top_number' => "10",
+'thumb_dimming' => '0',
 
-'tags_number' => "40",
+'thumb_gallery' => '1',
 
-'mail_title' => "",
+'outlinetype' => '0',
 
-'o_seite' => "0",
+'allow_smartphone' => '0',
 
-'online_status' => "1",
+'allow_smart_images' => '0',
 
-'avatar_size' => "100",
+'allow_smart_video' => '0',
 
-'allow_share' => "1",
+'allow_smart_format' => '1',
 
-'auth_domain' => "1",
+'mobile_news' => '10',
 
-'start_site' => "1",
+'allow_rss' => '1',
 
-'clear_cache' => "0",
+'rss_mtype' => '0',
 
-'use_admin_mail' => "0",
+'rss_number' => '10',
 
-'allow_complaint_mail' => "0",
+'rss_format' => '1',
 
-'spam_api_key' => "",
+'version_id' => '10.0',
 
 );
 
