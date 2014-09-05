@@ -4,11 +4,14 @@
 
 $config = array (
 
+
 'home_title' => 'Arttravel - время для отдыха должно быть всегда',
+
 
 'http_home_url' => 'http://dle100/',
 
 'charset' => 'windows-1251',
+
 
 'description' => 'авиатурагенство',
 
@@ -22,7 +25,9 @@ $config = array (
 
 'allow_alt_url' => 'yes',
 
+
 'seo_type' => '1',
+
 
 'seo_control' => '0',
 
