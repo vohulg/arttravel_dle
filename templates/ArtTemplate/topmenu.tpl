@@ -1,5 +1,5 @@
 <ul id="topmenu" class="lcol reset">
-	<li><a href="#"><b>О сайте</b></a></li>
+	<li><a href="#"><b>СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</b></a></li>
 	<li class="sublnk"><a href="#"><b>В мире</b></a>
 		<ul>
 			<li><a href="#"><b>Новости</b></a></li>
@@ -20,6 +20,5 @@
 	<li><a href="#"><b>Криминал</b></a></li>
 	<li><a href="#"><b>Спорт</b></a></li>
 	<li><a href="#"><b>Культура</b></a></li>
-	<li><a href="#"><b>Инопресса</b></a></li>
+	
 </ul>
-<a class="thide hrss" href="/rss.xml" title="Чтение RSS">Чтение RSS</a>

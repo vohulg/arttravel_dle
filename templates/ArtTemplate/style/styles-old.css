@@ -1,6 +1,5 @@
 /* Eric Meyer's CSS Reset */
-html, body, div, span, applet, object, i
-frame,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -55,7 +54,11 @@ body {
 	font: 12px/18px Arial, sans-serif;
 	width: 100%;
 	height: 100%;
+        background: #a8d2e5 url("../images/pagebg.png") repeat-x;
 }
+
+
+
 .wrapper {
 	width: 990px;
 	margin: 0 auto;
@@ -72,6 +75,32 @@ body {
 	//background: #FFE680;
 }
 
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+	padding: 0 0 119px;
+}
+
+
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+.footer {
+	width: 990px;
+	margin: -119px auto 0;
+	height: 119px;
+	background: #BFF08E;
+	position: relative;
+}
+
+
+
+dpad {
+    margin: 0 15px;
+}
+
 .header h1 a {
     //margin-top: 26px;
     float: left;
@@ -83,7 +112,6 @@ body {
     
 }
 
-
 .phone{
     height: 93px;
     width: 359px;
@@ -92,85 +120,34 @@ body {
     
 }
 
-
-
-/* Navigation
------------------------------------------------------------------------------*/
-.navigation {
-    margin-bottom: 15px;
+.topmenu{
+    height: 52px;
+    width: 100%;
     border: 1px solid red;
-}
-
-/* Middle
------------------------------------------------------------------------------*/
-.middle {
-	width: 100%;
-	padding: 0 0 119px;
-	position: relative;
-}
-.middle:after {
-	display: table;
-	clear: both;
-	content: '';
-}
-.container {
-	width: 100%;
-	float: left;
-	overflow: hidden;
-        
-        
-}
-
- .fullstory {
     margin-bottom: 15px;
-    text-align: justify;
-}
-
-.base {
-    margin-bottom: 30px;
-}
-
-.content {
-	padding: 0 270px 0 0;
+    
+    
 }
 
 /*---Краткая содержимое---*/
-
 .base {
-    //margin-bottom: 15px;
+    margin-bottom: 15px;
     border: 1px solid red;
 }
 
 .scrollblock {
-    width: 300px;
-    overflow-x: hidden; min-height: 200px;
-    max-height: 300px;
-    background: red;
-    
+    float:right;
+    overflow-x: hidden; max-height: 400px;
     //max-height: 300px;
     
 }
 
-
-/* Right Sidebar
------------------------------------------------------------------------------*/
-.right-sidebar {
-	float: left;
-	width: 250px;
-	margin-left: -250px;
-	position: relative;
-	background: #FFACAA;
-        min-height: 100px;
-       
+.maincont {
+    float:left;
+    
 }
 
-
-/* Footer
------------------------------------------------------------------------------*/
-.footer {
-	width: 990px;
-	margin: -119px auto 0;
-	height: 119px;
-	background: #BFF08E;
-	position: relative;
+.navigation {
+    margin-bottom: 15px;
+    border: 1px solid red;
 }

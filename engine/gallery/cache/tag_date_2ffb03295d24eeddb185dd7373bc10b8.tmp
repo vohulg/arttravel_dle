@@ -1,0 +1,45 @@
+<tr>
+<td>
+<div style="display:table-cell;vertical-align:middle;margin:0;padding:0;height:140px;width:130px;text-align:center;">
+<a href="http://dle100/gallery/tai/8-poezdka-v-tayland-8.html" onclick="return hs.expand(this, { src: 'http://dle100/uploads/gallery/main/1/tulips.jpg'} )"><img src="http://dle100/uploads/gallery/thumb/1/tulips.jpg" alt="Поездка в Тайланд 8" title="Поездка в Тайланд 8" /></a><span class="highslide-caption">Поездка в Тайланд 8</span></div>
+<h4 class="btl"> <a href="http://dle100/gallery/tai/8-poezdka-v-tayland-8.html">Поездка в Тайланд 8</a> </h4>
+<div style="height:21px;">
+	<span class="baseinfo radial">
+		<a onclick="return dropdownmenu(this, event, GalUserMenu('http://dle100/user/admin/', 'admin'), '220px')" onMouseout="delayhidemenu()" href="http://dle100/user/admin//">admin</a> от 3 сентября 08:57
+	</span>
+</div>
+<div><div id='ratig-layer-8'><div class="rating">
+		<ul class="unit-rating">
+		<li class="current-rating" style="width:0px;">0</li>
+		<li><a href="#" title="Плохо" class="r1-unit" onclick="GalRate('1', '8'); return false;">1</a></li>
+		<li><a href="#" title="Приемлемо" class="r2-unit" onclick="GalRate('2', '8'); return false;">2</a></li>
+		<li><a href="#" title="Средне" class="r3-unit" onclick="GalRate('3', '8'); return false;">3</a></li>
+		<li><a href="#" title="Хорошо" class="r4-unit" onclick="GalRate('4', '8'); return false;">4</a></li>
+		<li><a href="#" title="Отлично" class="r5-unit" onclick="GalRate('5', '8'); return false;">5</a></li>
+		</ul>
+</div></div></div>
+<div><a href="http://dle100/gallery/tai/8-poezdka-v-tayland-8.html#comment">Комментарии (0)</a></div>
+</td>
+
+<td>
+<div style="display:table-cell;vertical-align:middle;margin:0;padding:0;height:140px;width:130px;text-align:center;">
+<a href="http://dle100/gallery/tai/7-poezdka-v-tayland-7.html" onclick="return hs.expand(this, { src: 'http://dle100/uploads/gallery/main/1/penguins.jpg'} )"><img src="http://dle100/uploads/gallery/thumb/1/penguins.jpg" alt="Поездка в Тайланд 7" title="Поездка в Тайланд 7" /></a><span class="highslide-caption">Поездка в Тайланд 7</span></div>
+<h4 class="btl"> <a href="http://dle100/gallery/tai/7-poezdka-v-tayland-7.html">Поездка в Тайланд 7</a> </h4>
+<div style="height:21px;">
+	<span class="baseinfo radial">
+		<a onclick="return dropdownmenu(this, event, GalUserMenu('http://dle100/user/admin/', 'admin'), '220px')" onMouseout="delayhidemenu()" href="http://dle100/user/admin//">admin</a> от 3 сентября 08:57
+	</span>
+</div>
+<div><div id='ratig-layer-7'><div class="rating">
+		<ul class="unit-rating">
+		<li class="current-rating" style="width:0px;">0</li>
+		<li><a href="#" title="Плохо" class="r1-unit" onclick="GalRate('1', '7'); return false;">1</a></li>
+		<li><a href="#" title="Приемлемо" class="r2-unit" onclick="GalRate('2', '7'); return false;">2</a></li>
+		<li><a href="#" title="Средне" class="r3-unit" onclick="GalRate('3', '7'); return false;">3</a></li>
+		<li><a href="#" title="Хорошо" class="r4-unit" onclick="GalRate('4', '7'); return false;">4</a></li>
+		<li><a href="#" title="Отлично" class="r5-unit" onclick="GalRate('5', '7'); return false;">5</a></li>
+		</ul>
+</div></div></div>
+<div><a href="http://dle100/gallery/tai/7-poezdka-v-tayland-7.html#comment">Комментарии (0)</a></div>
+</td>
+</tr>

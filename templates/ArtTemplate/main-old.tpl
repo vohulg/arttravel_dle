@@ -4,8 +4,6 @@
 {headers}
 <link rel="shortcut icon" href="{THEME}/images/favicon.ico" />
 <link media="screen" href="{THEME}/style/styles.css" type="text/css" rel="stylesheet" />
-<link media="screen" href="{THEME}/style/stylesCms.css" type="text/css" rel="stylesheet" />
-<link media="screen" href="{THEME}/style/cssSidebar.css" type="text/css" rel="stylesheet" />
 <link media="screen" href="{THEME}/style/engine.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="{THEME}/js/libs.js"></script>
 </head>
@@ -16,39 +14,24 @@
 	<div class="header" >            
                 <h1><a href="/index.php" title="Arttravel"> </a></h1>
                 <div class="phone"> </div>
-        </div><!-- .header-->
-        
-        <div  id="menubar">
-             <div class="menubar">
-			{include file="topmenu.tpl"}
-		</div>
-		    
-	       
-            
-        </div>
-	
-        
+                
+                
+        		
+
+	</div><!-- .header-->
+        <div class="topmenu"> </div>
         
         <div class="navigation">{speedbar} </div>
 
-	<div class="middle">
-
-		<div class="container">
-			<main class="content">
-                             {info}
-                                {content}
-			</main><!-- .content -->
-		</div><!-- .container-->
-
-		<aside class="right-sidebar">
-                    גאנגאאננאננאנ
-		</aside><!-- .right-sidebar -->
-
-	</div><!-- .middle-->
+	<main class="content">
+            {info}
+            {content}
+        </main><!-- .content -->
 
 </div><!-- .wrapper -->
 
 <footer class="footer">
+	<strong>Footer:</strong> Mus elit Morbi mus enim lacus at quis Nam eget morbi. Et semper urna urna non at cursus dolor vestibulum neque enim. Tellus interdum at laoreet laoreet lacinia lacinia sed Quisque justo quis. Hendrerit scelerisque lorem elit orci tempor tincidunt enim Phasellus dignissim tincidunt. Nunc vel et Sed nisl Vestibulum odio montes Aliquam volutpat pellentesque. Ut pede sagittis et quis nunc gravida porttitor ligula.
 </footer><!-- .footer -->
 </body>
 </html>
