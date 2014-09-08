@@ -26,8 +26,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1;  
+        background-color: #668cd9;
+        background-repeat: no-repeat; 
+
+       
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -62,8 +67,9 @@ body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
+        
+        
 }
-
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -85,21 +91,61 @@ body {
 
 
 .phone{
-    height: 93px;
+    height: 60px;
     width: 359px;
-    border: 1px solid red;
+    //border: 1px solid red;
     float: right;
+    background: white;
+    margin-top: 25px; 
+    border-radius: 15px;
     
 }
 
+.insidephone {
+    
+    padding: 5px 10px 7px 5px;
+    //background: yellow;
+    height: 24px;
+    margin:0 auto;
+    width: 350px;
+}
 
+.insidephone span {
+    font:12px/1.35 Arial, Helvetica, sans-serif bold;
+    color: #454545;
+    font-style:normal;  
+    font-size:18px;
+    display: block;
+    text-align: center;
+    
+}
 
 /* Navigation
 -----------------------------------------------------------------------------*/
 .navigation {
-    margin-bottom: 15px;
-    border: 1px solid red;
+    //margin-bottom: 15px;
+    //border: 1px solid red;
+    //background: white;
+    height: 33px;
+    padding-left: 10px;
+    background: url(../images/bread1.gif) no-repeat;
+    margin-left:5px;
+    padding-top: 5px;
+    width: 690px;
+    overflow: hidden;
+    
+    
 }
+
+.navigation a {
+    text-decoration: none;
+    font:12px/1.35 Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: #038CB5;
+    
+}
+
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -107,6 +153,10 @@ body {
 	width: 100%;
 	padding: 0 0 119px;
 	position: relative;
+        background: white;
+        border-radius: 0 0 15px 15px; 
+        
+        
 }
 .middle:after {
 	display: table;
@@ -116,9 +166,7 @@ body {
 .container {
 	width: 100%;
 	float: left;
-	overflow: hidden;
-        
-        
+	overflow: hidden;       
 }
 
  .fullstory {
@@ -138,7 +186,7 @@ body {
 
 .base {
     //margin-bottom: 15px;
-    border: 1px solid red;
+    //border: 1px solid red;
 }
 
 .scrollblock {
@@ -164,13 +212,20 @@ body {
        
 }
 
+.prefooter {
+    
+    
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
 .footer {
 	width: 990px;
-	margin: -119px auto 0;
+	//margin: -119px auto 0;
 	height: 119px;
-	background: #BFF08E;
+	//background: #BFF08E;
 	position: relative;
+        
+        margin: 0 auto;
 }

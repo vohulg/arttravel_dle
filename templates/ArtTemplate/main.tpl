@@ -15,25 +15,34 @@
 
 	<div class="header" >            
                 <h1><a href="/index.php" title="Arttravel"> </a></h1>
-                <div class="phone"> </div>
+                <div class="phone"> 
+                    <div class="insidephone">
+                   <span>+7 727 317 35 09, 328 00 49, 232 45 55 </span>
+                   <span>art_travel@mail.ru </span>
+                   </div>
+                </div>
         </div><!-- .header-->
         
+        <div id="beformenubar">
         <div  id="menubar">
-             <div class="menubar">
+            <div id="insidemenubar">
+             <div class="menubar" >
 			{include file="topmenu.tpl"}
 		</div>
+                </div>
 		    
 	       
             
         </div>
-	
+                </div>
         
         
-        <div class="navigation">{speedbar} </div>
+        
 
 	<div class="middle">
 
 		<div class="container">
+                    <div class="navigation">{speedbar} </div>
 			<main class="content">
                              {info}
                                 {content}
@@ -47,7 +56,8 @@
 	</div><!-- .middle-->
 
 </div><!-- .wrapper -->
-
+<prefooter class="prefooter">
+</prefooter><!-- .footer -->
 <footer class="footer">
 </footer><!-- .footer -->
 </body>

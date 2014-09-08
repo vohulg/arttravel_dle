@@ -20,23 +20,43 @@
     margin: 0;
 }
 */
-#menubar {
-    margin-bottom: 12px;
-    background: url("../images/nav_bg.gif") repeat-x;
-    border: 1px solid red;
+
+#beformenubar {
+    background: white;
+    height: 55px;
+     border-radius: 10px 10px 0 0;
+     padding-top: 10px;
+    
 }
 
-
-.menubar {
+#menubar {
+    margin-top: 5px;
+    background: url("../images/nav_bg.gif") repeat-x;
+    //border: 1px solid red;
+    border-radius: 10px ;
     height: 47px;
-    border: 1px solid yellowgreen;
-   margin: 5px;
+    width: 970px;
+    margin: 0 auto;
+    
+}
+
+#insidemenubar {
+    padding-top: 3px;
+    padding-left: 10px;
+    height: 30px;
+    
+    
+}
+.menubar {
+    height: 37px;
+    margin-top: 10px;
 }
 
 .menubar ul {
     line-height: 26px;
     margin-top: 10px;
     text-transform: uppercase;
+    
     
 }
 
@@ -65,6 +85,7 @@
 .menubar ul a:hover {
     background-position: 0 0;
     background: red;
+    border-radius: 5px;
 }
 
 .menubar ul a:hover b {

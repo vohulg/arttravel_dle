@@ -1,2 +1,9 @@
 //// sidebar
 
+.speedbar
+{
+    padding-left: 10px;
+    //background: url(../images/bread1.gif) no-repeat;
+    background: red;
+    
+}
