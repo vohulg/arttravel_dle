@@ -50,7 +50,25 @@
 		</div><!-- .container-->
 
 		<aside class="right-sidebar">
-                    варваарраррар
+                    <div class="block">
+                        
+                        <div>
+                        <div class="block-image">
+                            <img src="{THEME}/images/plane.png" >
+                         </div>
+                         
+                         <div class="block-title">
+                                <span> <a href="#" >ј¬»јЅ»Ћ≈“џ</a> </span>
+                                
+                           </div>
+                         
+                         </div>
+                         <div class="block-text">
+                              <span> <a href="#" >купить авиабилеты</a> </span>
+                             </div>
+                           
+                        
+                        </div>
 		</aside><!-- .right-sidebar -->
 
 	</div><!-- .middle-->

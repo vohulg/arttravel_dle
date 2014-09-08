@@ -2,7 +2,10 @@
     
 <div class="base fullstory">
 	<div class="dpad">
+            <div id="page-title">
 		<h3 class="btl"><span id="news-title">{title}</span></h3>
+            </div>    
+                
 		<div class="maincont">
 			{full-story}
 			<div class="clr"></div>
