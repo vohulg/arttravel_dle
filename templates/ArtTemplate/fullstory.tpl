@@ -14,7 +14,7 @@
 		
 	</div>
 	
-	<div class="mlink">
+	<div class="dpad">
 		<span class="argback"><a href="javascript:history.go(-1)"><b>Вернуться</b></a></span>
 		
 	</div>
