@@ -49,27 +49,65 @@
                                 {content}
 			</div><!-- .content -->
                         
-                        <aside class="right-sidebar">
-                    <div class="block">
+                        <div class="right-sidebar">
+                    
+                        <div class="block">                    
                         
-                        <div>
                         <div class="block-image">
                             <img src="{THEME}/images/plane.png" >
                          </div>
                          
                          <div class="block-title">
-                                <span> <a href="#" >АВИАБИЛЕТЫ</a> </span>
-                                
-                           </div>
+                                <span> <a href="#" >АВИАБИЛЕТЫ</a> </span>                                
+                           </div>              
                          
-                         </div>
                          <div class="block-text">
                               <span> <a href="#" >купить авиабилеты</a> </span>
-                             </div>
-                           
+                             </div>                           
                         
                         </div>
-		</aside><!-- .right-sidebar -->
+                         
+                         <div class="block">                    
+                        
+                        <div class="block-image">
+                            <img src="{THEME}/images/plane.png" >
+                         </div>
+                         
+                         <div class="block-title">
+                                <span> <a href="#" >АВИАБИЛЕТЫ</a> </span>                                
+                           </div>              
+                         
+                         <div class="block-text">
+                              <span> <a href="#" >купить авиабилеты</a> </span>
+                             </div>                           
+                        
+                        </div>
+                         
+                          <div class="newblock">                    
+                        
+                               
+                         
+                         <div class="block-1"> 
+                             <div class="block-image">
+                            <img src="{THEME}/images/plane.png" >
+                         </div>
+                         
+                         <div class="block-title">
+                                <span> <a href="#" >АВИАБИЛЕТЫ</a> </span>                                
+                           </div>  
+                             
+                          </div>
+                         
+                         <div class="block-2">      
+                         
+                          <div class="block-text">
+                              <span> <a href="#" >купить авиабилеты</a> </span>
+                             </div> 
+                             
+                             </div>
+                        
+                        </div>
+		</div><!-- .right-sidebar -->
                         
                         
 		</div><!-- .container-->
@@ -81,7 +119,7 @@
 </div><!-- .wrapper -->
 <prefooter class="prefooter">
 </prefooter><!-- .footer -->
-<footer class="footer">
-</footer><!-- .footer -->
+<div class="footer">
+</div><!-- .footer -->
 </body>
 </html>

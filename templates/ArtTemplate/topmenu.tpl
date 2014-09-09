@@ -1,24 +1,22 @@
 <ul id="topmenu" class="lcol reset">
-	<li><a href="#"><b>СПЕЦИАЛЬНЫЕ ПРЕДЛОЖЕНИЯ</b></a></li>
-	<li class="sublnk"><a href="#"><b>В мире</b></a>
+	<li><a href="#"><b>О нас</b></a></li>
+	<li class="sublnk"><a href="#"><b>Страны</b></a>
 		<ul>
-			<li><a href="#"><b>Новости</b></a></li>
-			<li><a href="#"><b>Катастрофы</b></a></li>
-			<li><a href="#"><b>Климат</b></a></li>
-			<li><a href="#"><b>Погода</b></a></li>
+			<li><a href="#"><b>Европа</b></a></li>
+			<li><a href="#"><b>Азия</b></a></li>
+			<li><a href="#"><b>Тайланд</b></a></li>
+			<li><a href="#"><b>Бали</b></a></li>
 		</ul>
 	</li>
-	<li class="sublnk"><a href="#"><b>Экономика</b></a>
+	<li class="sublnk"><a href="#"><b>Отели</b></a>
 		<ul>
-			<li><a href="#"><b>Новости</b></a></li>
-			<li><a href="#"><b>Биржи</b></a></li>
-			<li><a href="#"><b>Котировки валют</b></a></li>
-			<li><a href="#"><b>Рынок</b></a></li>
+			<li><a href="#"><b>Боровое</b></a></li>
+			<li><a href="#"><b>Киргизия</b></a></li>
+			
 		</ul>
 	</li>
-	<li><a href="#"><b>Религия</b></a></li>
-	<li><a href="#"><b>Криминал</b></a></li>
-	<li><a href="#"><b>Спорт</b></a></li>
-	<li><a href="#"><b>Культура</b></a></li>
+	<li><a href="#"><b>Фотогалерея</b></a></li>
+	<li><a href="#"><b>Отзывы</b></a></li>
+	<li><a href="#"><b>Наши друзья</b></a></li>
 	
 </ul>
