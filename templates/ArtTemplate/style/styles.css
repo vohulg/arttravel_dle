@@ -79,11 +79,11 @@ body {
 }
 
 .header h1 a {
-    //margin-top: 26px;
+    margin-top: 5px;
     float: left;
     //width: 298px;
     //padding-top: 47px;
-    background: url("../images/logo-art-green.png") no-repeat;
+    background: url("../images/logo-art-2.png") no-repeat;
     height: 93px;
     width: 359px;
     
@@ -113,12 +113,19 @@ body {
 .insidephone span {
     font:12px/1.35 Arial, Helvetica, sans-serif bold;
     color: #454545;
+    //color: #006666;
     font-style:normal;  
     font-size:18px;
     display: block;
     text-align: center;
-    
 }
+   
+.insidephone span em {
+    
+   color: #006666; 
+}
+    
+
 
 /* Navigation
 -----------------------------------------------------------------------------*/
@@ -179,7 +186,10 @@ body {
 }
 
 .content {
-	padding: 0 270px 0 0;
+	//padding: 0 270px 0 0;
+        float:left;
+        width: 600px;
+        
 }
 
 /*---Краткая содержимое---*/
@@ -222,8 +232,8 @@ body {
 .right-sidebar {
 	float: left;
 	width: 250px;
-	margin-left: -250px;
-	position: relative;
+	//margin-left: -250px;
+	//position: relative;
 	//background: #FFACAA;
         min-height: 100px;
        

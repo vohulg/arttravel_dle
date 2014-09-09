@@ -18,7 +18,8 @@
                 <div class="phone"> 
                     <div class="insidephone">
                    <span>+7 727 317 35 09, 328 00 49, 232 45 55 </span>
-                   <span>art_travel@mail.ru </span>
+                   <span><em>art_travel@mail.ru </em></span>
+                   
                    </div>
                 </div>
         </div><!-- .header-->
@@ -43,13 +44,12 @@
 
 		<div class="container">
                     <div class="navigation">{speedbar} </div>
-			<main class="content">
+			<div class="content">
                              {info}
                                 {content}
-			</main><!-- .content -->
-		</div><!-- .container-->
-
-		<aside class="right-sidebar">
+			</div><!-- .content -->
+                        
+                        <aside class="right-sidebar">
                     <div class="block">
                         
                         <div>
@@ -70,6 +70,11 @@
                         
                         </div>
 		</aside><!-- .right-sidebar -->
+                        
+                        
+		</div><!-- .container-->
+
+		
 
 	</div><!-- .middle-->
 
